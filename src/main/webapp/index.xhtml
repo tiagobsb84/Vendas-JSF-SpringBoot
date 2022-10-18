@@ -3,10 +3,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Vendas - Home</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Vendas - Home</title>
+	<link href="css/home.css" rel="stylesheet" />
 </head>
 <body>
-	<h:outputText value="Hello World!" />
+	<div class="header">
+		<div class="logo">
+			<img class="image-logo" src="img/vendas-home.png" alt="logo" />
+			<h2>Vendas TSO</h2>
+		</div>
+		<div>
+			<h:link class="link" value="Home" hreflang="#" />
+			<h:link class="link" value="cadastro produto" hreflang="#" />
+			<h:link class="link-sair" value="Sair" hreflang="#" />
+		</div>
+	</div>
+	
 </body>
 </html>

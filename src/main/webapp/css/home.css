@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+    background: lightgrey	
+}
+
+.link {
+	margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.link-sair {
+	color: red;
+}
+
+.link-sair:hover {
+	opacity: 0.5;
+}
+
+.logo {
+	text-align: center
+}
+
+h2 {
+	color: red;
+}
+
+.image-logo {
+	width: 30px;
+}
